@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class PRIMAV4 {
 	public static void main(String[] args) {
 		PRIMAV4 prima=new PRIMAV4();
-		prima.main();
+//		prima.main();
+		prima.calcular(18,30);
 		
     }
 	
@@ -121,6 +122,9 @@ public class PRIMAV4 {
 		}
 		
 		double Prima = TarifaBasica * FactorEdad - ReduccionConductorSeguro;
+		System.out.println("Edad: "+edad);
+		System.out.println("Puntos: "+puntos);
+		System.out.println("Prima: "+Prima);
 		return Prima;
 	}
 }
